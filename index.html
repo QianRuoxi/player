@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="css/palyer.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <script src="js/player.js"></script>
+</head>
+<body>
+<div class="box">
+    <canvas id="canvas"></canvas>
+    <audio id="audio" src="song/银临,Aki阿杰%20-%20牵丝戏.mp3"></audio>
+    <div class="listbox">
+        <div class="list hidden">
+            <h1>播放列表</h1>
+            <ul>
+                <li>
+                    <span>状态</span>
+                    <span>音乐标题</span>
+                    <span>歌手</span>
+                    <span>专辑</span>
+                    <span>功能</span>
+                </li>
+            </ul>
+            <ul class="playlist">
+
+            </ul>
+        </div>
+    </div>
+    <div class="function">
+        <div class="smallimg">
+
+        </div>
+        <div class="btn">
+            <span class="previouse iconfont icon-shangyishou"></span>
+            <span class="play iconfont icon-bofang1"></span>
+            <span class="next iconfont icon-nextvideo-copy"></span>
+        </div>
+        <div class="progress">
+            <div class="name">
+                <span class="song">牵丝戏</span>
+                <span class="author">银临,Aki阿杰</span>
+                <span class="time">00:00</span>
+                <span>/</span>
+                <span class="alltime">00:00</span>
+            </div>
+            <div class="tiao">
+                <div class="load"></div>
+                <div class="row"></div>
+                <div class="jindu"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="volume">
+            <span class="iconfont icon-shengyin"></span>
+            <div class="volumerow">
+                <div class="row"></div>
+                <div class="jindu"></div>
+                <div class="circle"></div>
+            </div>
+
+        </div>
+        <div class="menu">
+            <span class="iconfont icon-fenlei"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/main.js"></script>
